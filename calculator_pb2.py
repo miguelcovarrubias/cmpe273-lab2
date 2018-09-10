@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='calculator.proto',
   package='calculator',
   syntax='proto3',
-  serialized_pb=_b('\n\x10\x63\x61lculator.proto\x12\ncalculator\"\"\n\nAddRequest\x12\t\n\x01\x61\x18\x01 \x01(\x01\x12\t\n\x01\x62\x18\x02 \x01(\x01\"\x1a\n\x08\x41\x64\x64Reply\x12\x0e\n\x06result\x18\x01 \x01(\x01\x32\x43\n\nCalculator\x12\x35\n\x03\x41\x64\x64\x12\x16.calculator.AddRequest\x1a\x14.calculator.AddReply\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x10\x63\x61lculator.proto\x12\ncalculator\"\"\n\nAddRequest\x12\t\n\x01x\x18\x01 \x01(\x01\x12\t\n\x01y\x18\x02 \x01(\x01\"\x1a\n\x08\x41\x64\x64Reply\x12\x0e\n\x06result\x18\x01 \x01(\x01\x32\x43\n\nCalculator\x12\x35\n\x03\x41\x64\x64\x12\x16.calculator.AddRequest\x1a\x14.calculator.AddReply\"\x00\x62\x06proto3')
 )
 
 
@@ -33,14 +33,14 @@ _ADDREQUEST = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='a', full_name='calculator.AddRequest.a', index=0,
+      name='x', full_name='calculator.AddRequest.x', index=0,
       number=1, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='b', full_name='calculator.AddRequest.b', index=1,
+      name='y', full_name='calculator.AddRequest.y', index=1,
       number=2, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,

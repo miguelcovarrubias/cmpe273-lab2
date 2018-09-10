@@ -8,8 +8,8 @@ service Calculator {
 }
 
 message AddRequest {
-    double a = 1;
-    double b = 2;
+    double x = 1;
+    double y = 2;
 }
 
 message AddReply {

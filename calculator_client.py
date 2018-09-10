@@ -7,12 +7,12 @@ import calculator_pb2_grpc
 
 
 def run():
-    print("Input numbers 'a' and 'b' to calculate sum:")
-    a = float(input("a: "))
-    b = float(input("b: "))
+    print("Input numbers 'x' and 'y' to calculate sum:")
+    x = float(input("x: "))
+    y = float(input("y: "))
     with grpc.insecure_channel('localhost:50051') as channel:
         stub = calculator_pb2_grpc.CalculatorStub(channel)
-        response = stub.Add(calculator_pb2.AddRequest(a=a, b=b))
+        response = stub.Add(calculator_pb2.AddRequest(x=x, y=y))
     print("Sum result: " + str(response.result))
 
 
