@@ -14,7 +14,7 @@ This is a simple calculator that has a add function "add(x, y)" which uses gRPC 
 
 ### Sample Output
 ### To build run:
-Input numbers 'x' and 'y' to calculate sum:  
+Input numbers 'x' and 'y' to calculate addition:  
 x: 3.5  
 y: 4.6  
-Sum result: 8.1  
+Addition result: 8.1  
