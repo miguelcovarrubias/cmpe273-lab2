@@ -1,0 +1,5 @@
+$ python calculator_client.py
+Input numbers 'a' and 'b' to calculate sum:
+a: 3.5
+b: 4.6
+Sum result: 8.1

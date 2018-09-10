@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package calculator;
+
+// The calculator service definition.
+service Calculator {
+  rpc Add(AddRequest) returns (AddReply) {}
+}
+
+message AddRequest {
+    double a = 1;
+    double b = 2;
+}
+
+message AddReply {
+    double result = 1;
+}
